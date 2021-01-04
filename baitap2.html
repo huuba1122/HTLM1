@@ -8,34 +8,59 @@
 <div style="width:20cm; height: 2cm ">
     <h1 style="color: red" ><pre style="text-align: center">THÔNG TIN CÁ NHÂN</h1>
 </div>
+<div class="header1">
+<div class="header" ">
+    <img src="img/1111.png">
+</div>
+<div >
 
-    <img src="img/1111.png" style="height: 4cm; width: 3cm;">
-   <ul>
-       <li style="color: blue">
-               HỌ VÀ TÊN:&nbsp;&nbsp;&nbsp;Nguyễn Văn A
-       </li>
-       <li style="color: blue">
-           Số Điện Thoại:&nbsp;&nbsp;&nbsp;09xxxxxxxx
-       </li>
-       <li style="color: blue">
-           Email:&nbsp;&nbsp;&nbsp;NguyenVanA@gmail.com
-       </li>
-       <li style="color: blue">
-           Địa Chỉ:&nbsp;&nbsp;&nbsp;Đường A, Phường B, Quận C, HN
-       </li>
-       <li style="color: blue">
-           Bằng Cấp:&nbsp;&nbsp;&nbsp;Mẫu Giáo
-       </li>
-       <li style="color: blue">Kỹ Năng</li>
-       <div style="width: 20cm; height:  4cm;">viết kỹ năng ở đây</div>
-       <li style="color: blue">Kinh nghiệm</li>
-       <div style="width: 20cm; height:  4cm;">viết kinh nghiệm ở đây</div>
-       <li style="color: blue">Định hướng phát triển bản thân</li>
-       <div style="width: 20cm; height:  4cm;">viết định hướng ở đây</div>
-   </ul>
-    </p>
+    <table border="1">
+                <tr>
+                    <td>Họ và tên</td>
+                    <td><input type="text" name="HỌ và tên"></td>
+                </tr>
 
+            <tr>
+                <td>Email</td>
+                <td><input type="text" name="Email"></td>
+            </tr>
+        <tr>
+            <td>Số điện thoại</td>
+            <td><input type="number" name="SDT"></td>
+        </tr>
+        <tr>
+            <td>Trình độ học vấn</td>
+            <td>
+                <label><input name="hocvan" value="thpt" type="radio"/> THPT</label>
+                <label><input name="hocvan" value="cunhan" type="radio"/> Đại học</label>
+                <label><input name="hocvan" value="pd-phd" type="radio"/> PD-PhD</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <label><input name="gioitinh" value="nam" type="checkbox"/> Nam</label>
+                <label><input name="gioitinh" value="nu" type="checkbox"/> Nữ</label>
+                <label><input name="gioitinh" value="khac" type="checkbox"/> khác</label>
+            </td>
+        </tr>
+    </table>
 
+</div>
+</div>
 
 </body>
 </html>
+<style>
+    .header1{
+        display: flex;
+
+    }
+    img {
+        width: 50%;
+        margin-left: 50px;
+    }
+    td{
+        color: blue;
+    }
+</style>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thông tin cá nhân</title>
+    <style>
+
+        table{
+            table-layout: fixed;
+            width: 500px;
+            background-color: lightgoldenrodyellow;
+            border: 5px solid darkorchid;
+        }
+        p{
+            background-color: orange;
+            text-align: center;
+            color: white;
+            height: 100%;
+            font-size: 30px;
+            margin: 0;
+        }
+        .td1{
+            color: blue;
+            text-align: right;
+            padding: 5px;
+        }
+        .td2{
+            color: red;
+            padding: 5px;
+        }
+        .td3{
+            text-align: left;
+            padding: 10px;
+        }
+        .bang2{
+            width: 500px;
+            height: 300px;
+            margin: 50px;
+            background-color: lightyellow;
+            border: 0px;
+            font-size: 16px;
+            text-align: left;
+            font-weight: 100;
+            padding-left: 5px;
+            table-layout: auto;
+        }
+        caption{
+            background-color: paleturquoise;
+            font-size: 24px;
+            color: blue;
+            line-height: 32px;
+            text-align: left;
+            padding-left: 5px;
+        }
+        .th6{
+            font-weight: 300;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+          <form action="form1.html" method="get">
+
+    <table>
+        <tr>
+            <td colspan="4"><p>SỞ THÍCH</p></td>
+        </tr>
+        <tr>
+            <td CLASS="td1">Họ và tên</td>
+            <td colspan="3"><input type="text" name="yourname" size="30"></td>
+        </tr>
+        <tr>
+            <td class="td1">Email</td>
+            <td colspan="3"><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td class="td1">Sở thích</td>
+            <td class="td2"><input type="checkbox">Thể thao</td>
+            <td class="td2"><input type="checkbox">Âm nhạc</td>
+            <td class="td2"><input type="checkbox">Đọc sách</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="td2"><input type="checkbox">lướt wed</td>
+            <td class="td2"><input type="checkbox">Chơi game</td>
+            <td class="td2"><input type="checkbox">Điện ảnh</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="td2"><input type="checkbox">Du lịch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="td3" colspan="3"><input type="submit" name="gui" value="Gửi thông tin">
+                <input type="reset" name="nhaplai" value="Nhập lại"></td>
+        </tr>
+
+    </table>
+</form>
+          <form>
+                <table class="bang2">
+                    <caption>ĐĂNG KÝ HỌC VIÊN</caption>
+                    <tr>
+                        <th class="th6">Họ và tên</th>
+                        <th class="th6"><input type="text" size="25px"></th>
+                    </tr>
+                    <tr>
+
+                        <th class="th6">Ngày sinh</th>
+                        <th class="th6"><input type="text" size="15px"></th>
+                    </tr>
+                    <tr>
+                        <th class="th6">Giới tính</th>
+                        <th style="font-weight: 300"><input name="aa" type="radio">Nam<input name="aa" type="radio">Nữ</th>
+                    </tr>
+                    <tr>
+                        <th class="th6">Địa chỉ</th>
+                        <th class="th6"><textarea name="" id="" cols="20" rows="3"></textarea></th>
+                    </tr>
+                    <tr>
+                        <th class="th6">Lớp</th>
+                        <th class="th6">
+                            <select>
+                                <option value="">--Chọn lớp--</option>
+                                <option value="">A</option>
+                                <option value="">B</option>
+                                <option value="">C</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="th6">Email</th>
+                        <th class="th6"><input type="text" size="15px"></th>
+                    </tr>
+                    <tr>
+                        <th class="th6">Điện thoại</th>
+                        <th class="th6"><input type="text" size="15px"></th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td><button>Đăng ký</button> <button>Nhập lại</button></td>
+                    </tr>
+                </table>
+          </form>
+</body>
+</html>
